@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="myModule">
+	<head>
+		<script src="/Users/ayoko001/Desktop/angularJS/tutorial/scripts/angular.js"></script>
+		<script src="script.js"></script>
+	</head>
+	
+	<body >
+		<div ng-controller="myController">
+			<div>
+				<input type="text" ng-model="greeting"/>
+				<br />
+				{{ message}}
+				<br />
+				{{ greeting}}
+			</div>
+			<div>
+				<table>
+					<tr>
+						<td>FirstName</td>
+						<td>
+							<input type="text" ng-model="employee.firstName">
+						</td>
+					</tr>
+					<tr>
+						<td>LastName</td>
+						<td>
+							<input type="text" ng-model="employee.lastName">
+						</td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>
+							<input type="text" ng-model="employee.gender">
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div>
+				<table>
+					<tr>
+						<td>FirstName</td>
+						<td>
+							{{employee.firstName}}
+						</td>
+					</tr>
+					<tr>
+						<td>LastName</td>
+						<td>
+							{{employee.lastName}}
+						</td>
+					</tr>
+					<tr>
+						<td>Gender</td>
+						<td>
+							{{employee.gender}}
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+	
+</html>
