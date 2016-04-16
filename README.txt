@@ -26,3 +26,10 @@ app7
 app8
 	- angular JS filters
 	
+app9
+	- sorting
+	
+app10 
+	- bi-directional sorting with button
+	
+	
