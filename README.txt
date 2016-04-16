@@ -17,4 +17,12 @@ app4
 app5
 	- 2 way data binding
 	
+app6
+	- ng-repeat ( foreach loop )
+	
+app7
+	- handling events 
+	
+app8
+	- angular JS filters
 	
